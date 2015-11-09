@@ -147,7 +147,7 @@ final class StaticWordLibrary extends WordLibrary {
         return WORD_LIST[idx];
     }
 
-    //commit julian 2
+    
     public String getScrambledWord(int idx) {
         return SCRAMBLED_WORD_LIST[idx];
     }
