@@ -130,7 +130,7 @@ final class StaticWordLibrary extends WordLibrary {
         "nuisngde",
         "rtdatioialn"
     };
-    
+    //commit 1
     final static WordLibrary DEFAULT = new StaticWordLibrary();
 
     /**
@@ -148,11 +148,7 @@ final class StaticWordLibrary extends WordLibrary {
         return WORD_LIST[idx];
     }
 
-    /**
-     * Gets the word at a given index in its scrambled form.
-     * @param idx index of required word
-     * @return word at that index in its scrambled form
-     */
+    
     public String getScrambledWord(int idx) {
         return SCRAMBLED_WORD_LIST[idx];
     }
